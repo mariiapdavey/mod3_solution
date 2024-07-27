@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Comic Neue", cursive;
+  color: black;
+}
+
+body {
+  font-size: 16px;
+  color: #fff;
+}
+/** HEADER **/
+#header-nav {
+  background-color: #999999;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand {
+  padding-top: 25px;
+}
+
+h1 { 
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  color: black;
+}
+
+.dropdown-menu {
+  width: 100%;
+  background-color: #444;
+}
+
+.dropdown-menu a {
+    color: white;
+}
+
+.menu-button {
+    background-color: #333;
+    color: white;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: 15px;
+}
+
+
+/* END HEADER */
+
+/* MENU */
+
+
+
+#section {
+ border: 10px solid white;
+  padding: 15px;
+  margin: 10px;
+  position: relative;
+  background-color: #999999;
+  height: 700px;
+  overflow: hidden;
+  display: inline-block;
+
+}
+
+#chicken, #beef, #sushi {
+  text-align: center;
+  padding: 5px;
+  font-size:1.25em;
+  font-weight: bold;
+}
+
+#menu {
+  padding: 5px;
+  font-size: 1.5em;
+  font-weight: bold;
+/* END MENU */
+
+.row {
+  width: 100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .col-md-12 {
+    float: left;
+    width: 100%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .col-sm-12 {
+    float: left;
+     width: 100%;
+  }
+}
+
+/********** Small devices only **********/
+@media (max-width: 991px) {
+
+  .col-xs-12 {
+    float: left;
+    width: 100%
+  }
+
+  #section {
+    margin: 50px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
